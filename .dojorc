@@ -1,0 +1,15 @@
+{
+	"extends": "./node_modules/@dojo/parade/parade.json",
+	"build-theme": {
+		"themes": [
+			"my-first-widget-lib"
+		]
+	},
+	"build-widget": {
+		"prefix": "my-first-widget-lib",
+		"widgets": [
+			"src/button/Button"
+		]
+	},
+	"create-widget": {}
+}
